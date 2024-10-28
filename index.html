@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>conversion</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="length">length</div>
+
+        <div class="unit">
+            <div class="meter">
+                <div class="num"><input type="number" class="input" value = "1"></div>
+                <div class="unit-meter">
+                    <select id="input-option">
+                        <option class="Metre">metre</option>
+                        <option class="Kilogram">kilogram</option>
+                        <option class="Celcius">celcius</option>
+                        <option class="Minute">minute</option>
+                    </select>
+
+                </div>
+            </div><span class="equals">=</span>
+            <div class="centimeter">
+                <div class="num"><input type="number" class="output" value = "100"></div>
+                <div class="unit-centimeter">
+                    <select id="output-option">
+                        <option class="Centimeter">centimeter</option>
+                        <option class="Gram">gram</option>
+                        <option class="Fahrenheit">fahrenheit</option>
+                        <option class="Seconds">seconds</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
